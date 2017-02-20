@@ -1,0 +1,4 @@
+COMMAND,PERSONID,PARTITION,FIRSTNAME,LASTNAME
+ModifyOrAddPerson,2201,Master,Josue,Pereira
+ModifyOrAddPerson,2202,Master,Elon,Musk
+ModifyOrAddPerson,2203,Master,Nikola,Tesla

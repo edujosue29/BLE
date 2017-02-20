@@ -1,0 +1,37 @@
+import csv
+
+with open('Nodo1.csv', 'w') as csvfile:
+    fieldnames = ['Activo', 'Distancia']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+    writer.writerow({'Activo': 'B1', 'Distancia': '1.4'})
+    writer.writerow({'Activo': 'B2', 'Distancia': '1.9'})
+    writer.writerow({'Activo': 'B3', 'Distancia': '5.3'})
+
+with open('Nodo2.csv', 'w') as csvfile:
+    fieldnames = ['Activo', 'Distancia']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+    writer.writerow({'Activo': 'B1', 'Distancia': '4'})
+    writer.writerow({'Activo': 'B2', 'Distancia': '3.9'})
+    writer.writerow({'Activo': 'B4', 'Distancia': '5'})
+
+with open('Nodo3.csv', 'w') as csvfile:
+    fieldnames = ['Activo', 'Distancia']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+    writer.writerow({'Activo': 'B2', 'Distancia': '8.3'})
+    writer.writerow({'Activo': 'B3', 'Distancia': '9'})
+
+with open('Nodo4.csv', 'w') as csvfile:
+    fieldnames = ['Activo', 'Distancia']
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+
+    writer.writeheader()
+    writer.writerow({'Activo': 'B2', 'Distancia': '8.1'})
+    writer.writerow({'Activo': 'B5', 'Distancia': '9.1'})
+    writer.writerow({'Activo': 'B4', 'Distancia': '3.1'})
+
